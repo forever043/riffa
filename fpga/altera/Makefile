@@ -39,7 +39,7 @@
 # Author:              Dustin Richmond (@darichmond)
 #-----------------------------------------------------------------------
 VENDOR:=altera
-BOARDS:=de5 de4 de2i
+BOARDS:=a10gx de5 de4 de2i
 CURRENT_PATH := $(patsubst %/,%,$(dir $(abspath $(lastword $(MAKEFILE_LIST)))))
 .DEFAULT_GOAL := all
 
